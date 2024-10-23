@@ -46,6 +46,11 @@ h1 {
   font-family: 'Playwrite GB S', sans-serif;
   font-size: 1.5rem;
   white-space: nowrap;
+  transition: transform 0.3s ease;
+}
+
+h1:hover {
+  transform: translateY(-0.2rem);
 }
 
 .h1 {

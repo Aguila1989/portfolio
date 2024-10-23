@@ -31,6 +31,11 @@ img {
   width: 20rem;
   height: 20rem;
   box-shadow: 10px 10px 22px -15px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: translateY(-0.2rem);
 }
 
 .me {
@@ -64,6 +69,11 @@ h1 {
 p {
   font-family: 'Lato', serif;
   width: 40rem;
+  transition: transform 0.3s ease;
+}
+
+p:hover {
+  transform: translateY(-0.2rem);
 }
 
 /* Responsive Styles */
