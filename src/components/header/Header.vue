@@ -38,8 +38,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 1rem;
   left: 0;
   z-index: 100;
 }
