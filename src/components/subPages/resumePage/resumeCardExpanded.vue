@@ -25,9 +25,8 @@ export default {
   </div>
 </template>
 
-
 <style scoped>
-.resume-card{
+.resume-card {
   border: 0.05rem solid lightgrey;
   padding: 3rem 6rem;
   border-radius: 1rem;
@@ -35,20 +34,43 @@ export default {
   width: 45%;
   margin-bottom: 2rem;
   margin-left: 1rem;
-  margin-right:1rem;
+  margin-right: 1rem;
+  background-color: white;
 }
-h2{
+
+h2 {
   margin-bottom: 1.5rem;
 }
 
-h3{
+h3 {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
-p{
+p {
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .resume-card {
+    width: 100%;
+    padding: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
 </style>
