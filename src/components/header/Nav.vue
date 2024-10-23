@@ -29,6 +29,7 @@ ul {
 }
 
 li {
+  font-family: 'Playwrite GB S', sans-serif;
   border-right: 1px solid black;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -44,7 +45,6 @@ li:hover {
   box-shadow: 10px 10px 20px -14px blue;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   ul {
     flex-direction: column;
@@ -52,7 +52,7 @@ li:hover {
   }
 
   li {
-    border-right: none; /* Remove borders for a clean vertical look */
+    border-right: none;
     border-bottom: 1px solid black;
     width: 100%;
     text-align: center;
@@ -65,7 +65,7 @@ li:hover {
 
 @media (max-width: 480px) {
   li {
-    font-size: 1rem; /* Slightly smaller font size for smaller screens */
+    font-size: 1rem;
     padding: 0.5rem 0.75rem;
   }
 }
