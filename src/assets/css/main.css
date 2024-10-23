@@ -1,0 +1,12 @@
+@import 'base.css';
+
+body {
+    background-image: url('/src/assets/css/media/view-3d-modern-abstract-sphere-art.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    overflow-y: scroll;
+    user-select: none;
+}
