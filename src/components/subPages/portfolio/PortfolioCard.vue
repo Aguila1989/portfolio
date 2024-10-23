@@ -67,6 +67,7 @@ img{
 }
 
 h2{
+  font-family: 'Playwrite GB S', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
