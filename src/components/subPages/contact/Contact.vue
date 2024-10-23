@@ -39,21 +39,25 @@ export default {
   }
 
   h1{
+    font-family: 'Playwrite GB S', sans-serif;
     margin-top: 5rem;
   }
 
   h2{
+    font-family: 'Playwrite GB S', sans-serif;
     font-size: 2rem;
     margin-bottom: 2rem;
     text-decoration: underline;
   }
 
   h3{
+    font-family: 'Playwrite GB S', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
 
   p{
+    font-family: 'Lato', serif;
     font-size: 1rem;
     margin-bottom: 1rem;
     padding: 0.5rem;

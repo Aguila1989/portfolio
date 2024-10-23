@@ -75,6 +75,10 @@ export default {
   gap: 2rem;
 }
 
+p{
+  font-family: 'Lato', serif;
+}
+
 img{
   max-width: 20rem;
   min-width: 20rem;

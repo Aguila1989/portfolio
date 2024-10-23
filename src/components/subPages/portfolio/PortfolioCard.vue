@@ -67,11 +67,13 @@ img{
 }
 
 h2{
+  font-family: 'Playwrite GB S', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 p{
+  font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }

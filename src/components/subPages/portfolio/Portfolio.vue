@@ -62,7 +62,9 @@ export default {
 </div>
 </template>
 <style scoped>
+
 h1 {
+  font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
 }
 

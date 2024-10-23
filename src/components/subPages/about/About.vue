@@ -39,6 +39,7 @@ img {
 }
 
 h1 {
+  font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
   text-align: center;
 }
@@ -58,6 +59,7 @@ h1 {
 }
 
 p {
+  font-family: 'Lato', serif;
   width: 40rem;
 }
 

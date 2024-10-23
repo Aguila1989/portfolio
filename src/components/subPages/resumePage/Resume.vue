@@ -36,7 +36,9 @@ export default {
 </template>
 
 <style scoped>
+
 h1 {
+  font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
   text-align: center;
 }
@@ -55,7 +57,6 @@ h1 {
   max-width: 45%;
 }
 
-/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .resume-containers {
     flex-direction: column;
@@ -68,29 +69,29 @@ h1 {
   }
 }
 
-/* Background colors for each section */
+
 .talents {
-  background-color: #d0e7f5; /* Soft sky blue */
+  background-color: #d0e7f5;
 }
 
 .languages {
-  background-color: #d4edda; /* Soft mint green */
+  background-color: #d4edda;
 }
 
 .education {
-  background-color: #f8d7da; /* Soft rose pink */
+  background-color: #f8d7da;
 }
 
 .experience {
-  background-color: #fff3cd; /* Soft light yellow */
+  background-color: #fff3cd;
 }
 
 .license {
-  background-color: #d6d8f5; /* Soft lavender */
+  background-color: #d6d8f5;
 }
 
 .cv {
-  background-color: #fce4ec; /* Soft pastel pink */
+  background-color: #fce4ec;
 }
 
 </style>

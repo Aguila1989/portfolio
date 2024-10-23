@@ -22,6 +22,7 @@ export default {
 </template>
 
 <style scoped>
+
 .resume-card {
   border: 0.05rem solid lightgrey;
   padding: 3rem 6rem;
@@ -35,14 +36,22 @@ export default {
 }
 
 h2 {
+  font-family: 'Playwrite GB S', sans-serif;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
+p {
+  font-family: 'Lato', serif;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 .list {
+  font-family: 'Lato', serif;
   font-size: 1.25rem;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .resume-card {
     width: 100%;
@@ -51,12 +60,5 @@ h2 {
     margin-right: 0;
   }
 
-  h2 {
-    font-size: 1.75rem;
-  }
-
-  .list {
-    font-size: 1rem;
-  }
 }
 </style>
