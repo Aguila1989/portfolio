@@ -13,7 +13,7 @@ export default {
     <PortfolioCard title="Portfolio" link-description="Link to GitHub" link="https://github.com/Aguila1989/portfolio" alt="portfoliio"
                    source="/src/assets/images/portfolio.jpg"
                    text="This year Howest asked us to make a portfolio. I decided to make a portfolio in Vue.js. <br>
-                   I added all my previous porject, including this one, to the portfolio. <br>
+                   I added all my previous projects, including this one, to the portfolio. <br>
                     I also added a blog page where I can write about my experiences and projects, and an about me and contact page to give visitors a better idea of who I am and what I do. <br>
                     I tried to build the portfolio as user-friendly as possible, with a clean design and easy navigation, also spliiting up the code in the right components <br>" />
     <PortfolioCard title="RecipEasy" link-description="Link to GitHub" link="https://github.com/Aguila1989/RecipEasy" alt="RecipEasy"
