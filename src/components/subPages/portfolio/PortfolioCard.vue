@@ -72,6 +72,7 @@ h2{
 }
 
 p{
+  font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
