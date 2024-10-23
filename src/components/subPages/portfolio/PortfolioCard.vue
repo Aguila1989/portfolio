@@ -79,9 +79,9 @@ p{
 @media (max-width: 768px) {
   .portfolio-card {
     width: 100%;
-    padding: 2rem;
     margin-left: 0;
     margin-right: 0;
+    padding: 2rem;
   }
 
   img {

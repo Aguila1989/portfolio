@@ -94,4 +94,11 @@ h1 {
   background-color: #fce4ec;
 }
 
+
+@media (max-width: 768px) {
+  .resume-containers{
+    padding: 0;
+  }
+}
+
 </style>

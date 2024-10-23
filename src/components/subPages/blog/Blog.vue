@@ -37,4 +37,10 @@ export default {
   .blog{
     padding:2rem;
   }
+
+  @media (max-width: 768px) {
+    .blog{
+      padding: 0;
+    }
+  }
 </style>

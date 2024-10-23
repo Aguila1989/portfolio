@@ -98,4 +98,30 @@ align-self: center;
 .description{
   font-size: 1.25rem;
 }
+
+@media (max-width: 768px) {
+
+.blog-card {
+    width: 100%;
+    padding: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .blog-description {
+    flex-direction: column;
+    width: 100%;
+  }
+  img{
+    max-width: 15rem;
+    min-width: 15rem;
+    max-height: 15rem;
+    min-height: 15rem;
+  }
+}
 </style>

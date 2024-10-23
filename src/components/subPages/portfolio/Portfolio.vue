@@ -74,4 +74,10 @@ h1 {
   justify-content: space-between;
   padding: 2rem;
 }
+
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 0;
+  }
+}
 </style>

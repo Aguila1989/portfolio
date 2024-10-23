@@ -94,16 +94,22 @@ a {
 }
 
 @media (max-width: 768px) {
+
+
+
   .contact-container {
     display: flex;
     flex-direction: column;
     padding: 2rem 3rem;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   h1, h2, h3, p {
     text-align: center;
   }
+
+
 }
 </style>
