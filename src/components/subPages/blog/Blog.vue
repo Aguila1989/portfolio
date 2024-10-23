@@ -33,6 +33,7 @@ export default {
   h1{
     font-family: 'Playwrite GB S', sans-serif;
     margin-top: 5rem;
+    text-align: center;
   }
   .blog{
     padding:2rem;

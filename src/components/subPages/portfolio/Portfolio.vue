@@ -66,6 +66,7 @@ export default {
 h1 {
   font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
+  text-align: center;
 }
 
 .portfolio {
@@ -76,6 +77,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
   .portfolio {
     padding: 0;
   }
