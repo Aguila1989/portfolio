@@ -3,7 +3,10 @@ import PortfolioCard from "@/components/subPages/portfolio/PortfolioCard.vue";
 
 export default {
   name: "Portfolio",
-  components: {PortfolioCard}
+  components: {PortfolioCard},
+  mounted() {
+    window.scrollTo(0, 0);
+  }
 }
 </script>
 

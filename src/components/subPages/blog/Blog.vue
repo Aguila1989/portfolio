@@ -3,7 +3,10 @@ import BlogCard from "@/components/subPages/blog/BlogCard.vue";
 
 export default {
   name: "Blog",
-  components: {BlogCard}
+  components: {BlogCard},
+  mounted() {
+    window.scrollTo(0, 0);
+  }
 }
 </script>
 

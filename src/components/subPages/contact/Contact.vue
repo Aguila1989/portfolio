@@ -1,6 +1,9 @@
 <script>
 export default {
-  name: "Contact"
+  name: "Contact",
+  mounted() {
+    window.scrollTo(0, 0);
+  }
 }
 </script>
 

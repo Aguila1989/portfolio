@@ -4,7 +4,10 @@ import ResumeCardExpanded from "@/components/subPages/resumePage/resumeCardExpan
 
 export default {
   name: "Resume",
-  components: { ResumeCardExpanded, ResumeCard }
+  components: { ResumeCardExpanded, ResumeCard },
+  mounted() {
+    window.scrollTo(0, 0);
+  }
 };
 </script>
 
