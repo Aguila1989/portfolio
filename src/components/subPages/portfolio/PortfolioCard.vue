@@ -67,14 +67,26 @@ img{
 }
 
 h2{
-  font-family: 'Playwrite GB S', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 p{
-  font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .portfolio-card {
+    width: 100%;
+    padding: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  img {
+    width: 15rem;
+    height: 15rem;
+  }
 }
 </style>
