@@ -76,7 +76,7 @@ h1 {
   padding: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   .portfolio {
     padding: 0;

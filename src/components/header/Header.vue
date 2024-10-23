@@ -64,8 +64,9 @@ h1 {
   margin-right: 10px;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
+
+
+@media (max-width: 900px) {
   .header {
     flex-direction: column;
     padding: 1rem;
@@ -89,7 +90,7 @@ h1 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1470px) {
   h1 {
     font-size: 1rem;
   }

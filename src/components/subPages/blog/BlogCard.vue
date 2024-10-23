@@ -99,7 +99,7 @@ align-self: center;
   font-size: 1.25rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
 
 .blog-card {
     width: 100%;
@@ -108,10 +108,7 @@ align-self: center;
     margin-right: 0;
   }
 
-  .title{
-    flex-direction: column-reverse;
-    width: 100%;
-  }
+
 
   .blog-description {
     flex-direction: column;
@@ -122,6 +119,12 @@ align-self: center;
     min-width: 15rem;
     max-height: 15rem;
     min-height: 15rem;
+  }
+@media (max-width: 800px) {
+  .title {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
   }
 }
 </style>

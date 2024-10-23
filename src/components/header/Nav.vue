@@ -45,7 +45,7 @@ li:hover {
   box-shadow: 10px 10px 20px -14px blue;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   ul {
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ li:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   li {
     font-size: 1rem;
     padding: 0.5rem 0.75rem;

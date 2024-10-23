@@ -52,7 +52,7 @@ p {
   font-size: 1.25rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .resume-card {
     width: 100%;
     padding: 2rem;

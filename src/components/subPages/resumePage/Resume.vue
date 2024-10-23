@@ -57,7 +57,7 @@ h1 {
   max-width: 45%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .resume-containers {
     flex-direction: column;
     padding: 1rem;
@@ -95,7 +95,7 @@ h1 {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .resume-containers{
     padding: 0;
   }

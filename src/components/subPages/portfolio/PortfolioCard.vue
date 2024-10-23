@@ -77,12 +77,19 @@ p{
   margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1300px) {
+  .portfolio-card {
+    padding: 2rem;
+  }
+
+}
+
+@media (max-width: 900px) {
   .portfolio-card {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding: 2rem;
   }
 
   img {
