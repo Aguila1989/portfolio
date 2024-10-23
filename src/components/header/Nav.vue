@@ -33,16 +33,20 @@ li {
   border-right: 1px solid black;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
+  transition: transform 0.3s ease;
 }
 
 li:last-child {
   border-right: none;
 }
 
+
+
 li:hover {
   background-color: lightpink;
   cursor: pointer;
   box-shadow: 10px 10px 20px -14px blue;
+  transform: translateY(-0.2rem);
 }
 
 @media (max-width: 1300px) {

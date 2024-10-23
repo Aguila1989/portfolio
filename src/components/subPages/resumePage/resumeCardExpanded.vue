@@ -37,6 +37,11 @@ export default {
   margin-left: 1rem;
   margin-right: 1rem;
   background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-0.2rem);
 }
 
 h2 {

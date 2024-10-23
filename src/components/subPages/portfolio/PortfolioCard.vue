@@ -54,6 +54,11 @@ export default {
   margin-right: 1rem;
   background-color: #ffffff;
   opacity: 0.8;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-0.2rem);
 }
 
 img{

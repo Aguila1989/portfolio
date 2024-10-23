@@ -75,8 +75,13 @@ p {
   transition: background-color 0.3s ease;
 }
 
+.mail, .phone, .linked {
+  transition: transform 0.3s ease;
+}
+
 .mail:hover, .phone:hover, .linked:hover {
   background-color: rgba(244, 214, 96, 0.98);
+  transform: translateY(-0.15rem);
 }
 
 .mail {
