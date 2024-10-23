@@ -39,7 +39,7 @@ export default {
   <div class="blog-card">
     <div class="title">
     <h2>{{title}}</h2>
-    <p>{{date}}</p>
+    <p class="date">{{date}}</p>
     </div>
     <div class="blog-description">
       <img v-if="sourceImageLeft" :src="sourceImageLeft" alt="{{imageLeftAlt}}">
@@ -73,6 +73,14 @@ export default {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+}
+
+h2 {
+  font-family: 'Playwrite GB S', sans-serif;
+}
+
+.date{
+  font-family: 'Playwrite GB S', serif;
 }
 
 p{
