@@ -3,31 +3,32 @@ import Nav from "@/components/header/Nav.vue";
 
 export default {
   name: "Header",
-  components: {Nav
+  components: {
+    Nav
   },
   methods: {
     emitPage(item) {
       this.$emit('showRightPage', item);
     },
     handleClick(item) {
-      this.$emit("showRightPage", item)
+      this.$emit("showRightPage", item);
     }
   }
-}
+};
 </script>
 
 <template>
   <div class="header">
     <div class="h1">
-    <div @click="handleClick('about')" class="circle"></div>
-  <h1 @click="handleClick('about')">Demeulenaere Kevin - <span>Software Engineering Student</span></h1>
+      <div @click="handleClick('about')" class="circle"></div>
+      <h1 @click="handleClick('about')">Demeulenaere Kevin - <span>Software Engineering Student</span></h1>
     </div>
-  <Nav @showRightPage="emitPage"/>
+    <Nav @showRightPage="emitPage" />
   </div>
 </template>
 
 <style scoped>
-.header{
+.header {
   background-image: url('/src/assets/css/media/view-3d-modern-abstract-sphere-art.jpg');
   background-size: cover;
   background-position: top;
@@ -41,25 +42,60 @@ export default {
   top: 1rem;
   left: 0;
   z-index: 100;
-
 }
 
-h1{
+h1 {
   font-size: 1.5rem;
+  white-space: nowrap;
 }
 
-.h1{
+.h1 {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.circle{
-
+.circle {
   width: 2rem;
   height: 2rem;
   background-color: lightpink;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+
+  .h1 {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .circle {
+    margin: 0 auto 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .circle {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 </style>

@@ -1,13 +1,12 @@
 <script>
 export default {
-  name: "Nav"
-  ,
+  name: "Nav",
   methods: {
     handleClick(item) {
-      this.$emit("showRightPage", item)
+      this.$emit("showRightPage", item);
     }
   }
-}
+};
 </script>
 
 <template>
@@ -26,6 +25,7 @@ ul {
   justify-content: space-between;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -42,5 +42,31 @@ li:hover {
   background-color: lightpink;
   cursor: pointer;
   box-shadow: 10px 10px 20px -14px blue;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    border-right: none; /* Remove borders for a clean vertical look */
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 480px) {
+  li {
+    font-size: 1rem; /* Slightly smaller font size for smaller screens */
+    padding: 0.5rem 0.75rem;
+  }
 }
 </style>
