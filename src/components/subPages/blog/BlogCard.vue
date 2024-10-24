@@ -46,7 +46,7 @@ export default {
       <img v-if="sourceImageLeft" :src="sourceImageLeft" alt="{{imageLeftAlt}}">
       <div class="paragraphs">
         <div v-for="(paragraph, index) in paragraphs" :key="index">
-          <p class="description">{{ paragraph.description }}</p>
+          <p class="description" v-html="paragraph.description" ></p>
         </div>
       </div>
       <img v-if="sourceImageRight" :src="sourceImageRight" alt="{{imageRightAlt}}">
