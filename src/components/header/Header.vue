@@ -18,17 +18,18 @@ export default {
 </script>
 
 <template>
-  <div class="header">
+  <header>
     <div class="h1">
       <div @click="handleClick('about')" class="circle"></div>
       <h1 @click="handleClick('about')">Demeulenaere Kevin - <span>Software Engineering Student</span></h1>
     </div>
     <Nav @showRightPage="emitPage" />
-  </div>
+  </header>
 </template>
 
 <style scoped>
-.header {
+
+header {
   background-image: url('/src/assets/css/media/view-3d-modern-abstract-sphere-art.jpg');
   background-size: cover;
   background-position: top;
@@ -70,7 +71,7 @@ h1:hover {
 
 
 @media (max-width: 900px) {
-  .header {
+  header {
     flex-direction: column;
     padding: 1rem;
     border-radius: 2rem;
