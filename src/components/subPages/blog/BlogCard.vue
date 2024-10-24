@@ -11,10 +11,6 @@ export default {
       type: String,
       required: true
     },
-    description: {
-      type: String,
-      required: true
-    },
     sourceImageLeft: {
       type: String,
       required: false
@@ -26,6 +22,11 @@ export default {
     sourceImageRight: {
       type: String,
       required: false
+    },
+    paragraphs: {
+      type: Array,
+      required: true,
+      default: () => []
     },
     imageRightAlt: {
       type: String,
@@ -43,7 +44,11 @@ export default {
     </div>
     <div class="blog-description">
       <img v-if="sourceImageLeft" :src="sourceImageLeft" alt="{{imageLeftAlt}}">
-      <p class="description" v-html="description"></p>
+      <div class="paragraphs">
+        <div v-for="(paragraph, index) in paragraphs" :key="index">
+          <p class="description">{{ paragraph.description }}</p>
+        </div>
+      </div>
       <img v-if="sourceImageRight" :src="sourceImageRight" alt="{{imageRightAlt}}">
     </div>
   </div>
@@ -98,6 +103,12 @@ img {
   min-height: 20rem;
   border-radius: 2rem;
   align-self: center;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .description {
