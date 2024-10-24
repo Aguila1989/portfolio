@@ -12,7 +12,7 @@ export default {
 
 <template>
   <h1>Blog</h1>
-  <div class="blog">
+  <section class="blog">
     <BlogCard title="Blog 1" date="2021-01-01"
               :paragraphs="[
               {description: 'This is the first blog post'}
@@ -36,7 +36,7 @@ export default {
               ]"
               sourceImageLeft="src/assets/images/baserow.jpg"
               imageLeftAlt="baserow" />
-  </div>
+  </section>
 </template>
 
 <style scoped>

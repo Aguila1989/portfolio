@@ -15,10 +15,10 @@ export default {
 </script>
 
 <template>
-  <div class="resume-card">
+  <article class="resume-card">
     <h2>{{ title }}</h2>
     <div class="list" v-html="list"></div>
-  </div>
+  </article>
 </template>
 
 <style scoped>

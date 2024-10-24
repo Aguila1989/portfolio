@@ -31,12 +31,12 @@ export default {
 </script>
 
 <template>
-  <div class="portfolio-card">
+  <article class="portfolio-card">
     <img :src="source" alt="{{alt}}">
     <h2>{{title}}</h2>
     <p v-html="text"></p>
     <p><a :href="link" target='_blank'>{{ linkDescription }}</a></p>
-  </div>
+  </article>
 </template>
 
 <style scoped>

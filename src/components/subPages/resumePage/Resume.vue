@@ -12,9 +12,9 @@ export default {
 </script>
 
 <template>
-  <div class="resume-page">
+  <article class="resume-page">
     <h1>Resume</h1>
-    <div class="resume-containers">
+    <section class="resume-containers">
       <ResumeCard class="talents" title="TALENTS AND SKILLS" list="Javascript<br>HTML<br>CSS<br>VUE<br>JAVA<br>C#"/>
       <ResumeCard class="languages" title="LANGUAGES"
                   list="Dutch: Native language<br>Spanish: Good<br>English: Good<br>French: Moderate<br/>"/>
@@ -34,8 +34,8 @@ export default {
       <ResumeCard class="license" title="DRIVERS LICENSE" list="Drivers License Category B and C"/>
       <ResumeCard class="cv" title="DOWNLOAD CV" list="<a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Nederlands.pdf' target='_blank'>Download Dutch CV</a>
                                                       <br><a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Engels.pdf' target='_blank'>Download English CV</a>"/>
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 
 <style scoped>

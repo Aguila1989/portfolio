@@ -10,7 +10,7 @@ export default {
 <template>
   <h1>Contact</h1>
   <div class="contact-info">
-    <div class="contact-container">
+    <section class="contact-container">
       <h2>Contact Information</h2>
       <h3>Email:</h3>
       <p class="mail"><a href="mailto:k.demeulenaere@hotmail.com">k.demeulenaere@hotmail.com</a></p>
@@ -18,7 +18,7 @@ export default {
       <p class="phone"><a href="https://wa.me/32474761753" target="_blank">+32(0)474/76.17.53</a></p>
       <h3>LinkedIn:</h3>
       <p class="linked"><a href="https://www.linkedin.com/in/kevin-demeulenaere-63563b87?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">My LinkedIn Profile</a></p>
-    </div>
+    </section>
   </div>
 </template>
 

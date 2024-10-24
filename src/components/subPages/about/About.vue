@@ -8,21 +8,22 @@ export default {
 </script>
 
 <template>
-  <div class="about-me">
+  <article class="about-me">
     <h1>About me</h1>
     <div class="me">
       <div class="photo-and-text">
         <img src="/src/assets/images/Screenshot%202024-10-21%20235517.png" alt="">
-        <p>
-          Hi there, I'm Kevin<br><br>
-          I'm a last year student Bachelor Applied Informatics with a specialization towards Software Engineering at the university of Howest Bruges.<br>
+        <div>
+        <p>Hi there, I'm Kevin</p>
+          <p>I'm a last year student Bachelor Applied Informatics with a specialization towards Software Engineering at the university of Howest Bruges.<br>
           As a dedicated developer, I’m enthusiastic about learning new technologies, collaborating with teams,
           and thriving in an agile environment. I have successfully completed a range of projects, from web applications to software systems,
           and I am continually seeking opportunities to enhance my skills and grow as a professional.
         </p>
+        </div>
       </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <style scoped>
@@ -70,6 +71,7 @@ p {
   font-family: 'Lato', serif;
   width: 40rem;
   transition: transform 0.3s ease;
+  margin-bottom: 1rem;
 }
 
 p:hover {

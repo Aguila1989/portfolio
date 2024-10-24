@@ -12,7 +12,7 @@ export default {
 
 <template>
   <h1>My Work</h1>
-  <div class="portfolio">
+  <section class="portfolio">
     <PortfolioCard title="Portfolio" link-description="Link to GitHub" link="https://github.com/Aguila1989/portfolio" alt="portfoliio"
                    source="/src/assets/images/portfolio.jpg"
                    text="I decided to make a portfolio in Vue.js. <br>
@@ -62,7 +62,7 @@ export default {
                    Real-time updates on ship status and strategic shot tracking made for an engaging experience, with a satisfying conclusion at the end of each match. <br>
                    Building the backend taught us the importance of clean architecture and adhering to API specifications, making this our first experience with complex full-stack development. <br>
                    In the end, we were proud of our work, as it exceeded our expectations and gave us the confidence to tackle even bigger challenges."/>
-</div>
+</section>
 </template>
 <style scoped>
 

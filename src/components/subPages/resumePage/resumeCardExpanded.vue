@@ -16,13 +16,13 @@ export default {
 </script>
 
 <template>
-  <div class="resume-card">
+  <article class="resume-card">
     <h2>{{ title }}</h2>
     <div v-for="(section, index) in sections" :key="index">
       <h3 v-if="section.title">{{ section.title }}</h3>
       <p v-if="section.text">{{ section.text }}</p>
     </div>
-  </div>
+  </article>
 </template>
 
 <style scoped>

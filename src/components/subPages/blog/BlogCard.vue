@@ -37,7 +37,7 @@ export default {
 </script>
 
 <template>
-  <div class="blog-card">
+  <article class="blog-card">
     <div class="title">
       <h2>{{ title }}</h2>
       <p class="date">{{ date }}</p>
@@ -51,7 +51,7 @@ export default {
       </div>
       <img v-if="sourceImageRight" :src="sourceImageRight" alt="{{imageRightAlt}}">
     </div>
-  </div>
+  </article>
 </template>
 
 <style scoped>
