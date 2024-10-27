@@ -6,9 +6,10 @@ export default {
       type: String,
       required: true
     },
-    text: {
-      type: String,
-      required: true
+    paragraphs: {
+      type: Array,
+      required: true,
+      default: () => []
     },
     source: {
       type: String,
@@ -34,7 +35,9 @@ export default {
   <article class="portfolio-card">
     <img :src="source" alt="{{alt}}">
     <h2>{{title}}</h2>
-    <p v-html="text"></p>
+    <div v-for="(paragraph, index) in paragraphs" :key="index">
+      <p class="description" v-html="paragraph.description" ></p>
+    </div>
     <p><a :href="link" target='_blank'>{{ linkDescription }}</a></p>
   </article>
 </template>
@@ -81,12 +84,17 @@ p{
   font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  line-height: 170%;
 }
 
 
 @media (max-width: 1300px) {
   .portfolio-card {
     padding: 2rem;
+  }
+  img {
+    width: 17rem;
+    height: 17rem;
   }
 
 }

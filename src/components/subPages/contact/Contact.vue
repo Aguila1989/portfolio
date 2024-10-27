@@ -28,7 +28,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .contact-container {
@@ -73,6 +73,7 @@ p {
   cursor: pointer;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.75);
   transition: background-color 0.3s ease;
+  line-height: 170%;
 }
 
 .mail, .phone, .linked {

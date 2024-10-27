@@ -32,7 +32,6 @@ export default {
   padding: 3rem 6rem;
   border-radius: 1rem;
   box-shadow: 10px 10px 22px -15px rgba(0, 0, 0, 1);
-  width: 45%;
   margin-bottom: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -59,6 +58,7 @@ p {
   font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  line-height: 170%;
 }
 
 @media (max-width: 900px) {

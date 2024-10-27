@@ -57,7 +57,6 @@ h1 {
 
 .resume-containers > * {
   flex: 1 1 45%;
-  max-width: 45%;
 }
 
 @media (max-width: 900px) {

@@ -44,7 +44,7 @@ img:hover {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 h1 {
@@ -72,6 +72,7 @@ p {
   width: 40rem;
   transition: transform 0.3s ease;
   margin-bottom: 1rem;
+  line-height: 170%;
 }
 
 p:hover {
