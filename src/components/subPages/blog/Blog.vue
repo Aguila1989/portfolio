@@ -13,16 +13,18 @@ export default {
 <template>
   <h1>Blog</h1>
   <section class="blog">
-    <BlogCard title="Blog 1" date="2021-01-01"
+
+    <BlogCard title="Tech and Meet TuxTalk" date="2024-10-29"
               :paragraphs="[
-              {description: 'This is the first blog post'}
-               ]"
-              sourceImageLeft="src/assets/images/battleship.jpg" imageLeftAlt="lala" />
-    <BlogCard title="Blog 2" date="2021-01-02"
-              :paragraphs="[
-              {description: 'This is the second blog post'}
-               ]"
-              sourceImageRight="src/assets/images/battleship.jpg" imageRightAlt="lala" />
+              {description: 'On October 29, we attended an insightful Linux meetup, exploring the newest advancements and trends in the Linux ecosystem. Here’s a look at the main highlights from the discussions:'},
+              {description: '&emsp;1. Ubuntu 24.10 – Launched on October 10, Ubuntu 24.10, also known as “Oracular Oriole,” arrived with Linux kernel 6.11, GNOME 47, and a refreshed installer using Flutter. <br>This release is supported for nine months, providing a stable bridge to the upcoming Ubuntu 25.04 next year.'},
+              {description: '&emsp;2. GNOME 47.1 – This update focuses on accessibility, with improved display scaling and optimized shortcuts. <br>The goal is a smoother user experience, particularly across devices with varying screen sizes.'},
+              {description: '&emsp;3. CachyOS Update – The latest version of this Arch-based distro optimizes performance for AMD hardware, offering faster boot times and new configurations, especially for newer AMD CPUs.'},
+              {description: '&emsp;4. System76’s Thelio Astra – System76’s latest ARM64-powered desktop model targets developers and researchers needing high-performance, Linux-specific hardware with flexibility and power.'},
+              {description: 'We searched for Tech and Meets online and came across this one but honestly it was a bit disappointing...'},
+              ]"
+              sourceImageRight="src/assets/images/tuxTalk.jpg" imageRightAlt="TuxTalk" />
+
     <BlogCard title="Tech and Meet BaseRow" date="2022-10-22"
               :paragraphs="[
               {description: 'October 22st, I attended a tech meet at Howest that featured a presentation on Baserow, an open-source database software. The speaker, who commenced at 19:00 and finished at 20:00, introduced Baserow as a versatile platform that simplifies database management.'},
