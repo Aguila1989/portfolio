@@ -21,7 +21,7 @@ export default {
               {description: 'Strong OT security depends on aligning people, processes, and technology. <br>Logical zoning within networks limits risks, and legacy systems must be updated, with strict access controls in place. <br>Monitoring is also critical—dark web scans and multi-factor authentication (MFA) can prevent breaches, while alerts for unusual activity provide early warnings. <br>Proactive steps like these ensure systems remain secure and resilient against inevitable threats.'},
               {description: 'It was an incredibly interesting evening where I gained valuable insights and learned a lot about the critical importance of OT security in today’s interconnected world.'}
               ]"
-              sourceImageLeft="src/assets/images/hack the future.jpg"
+              sourceImageLeft="src/assets/images/ot-security.jpg"
               imageLeftAlt="baserow" />
 
     <BlogCard title="Tech and Meet AI: The reality behind the hype" date="2024-11-21"
