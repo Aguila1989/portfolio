@@ -13,6 +13,17 @@ export default {
 <template>
   <h1>Blog</h1>
   <section class="blog">
+    <BlogCard title="The importance of OT security" date="2024-12-03"
+              :paragraphs="[
+              {description: 'On December 03, 2024, I attended a thought-provoking seminar on Operational Technology (OT) security, which explored the critical role of cybersecurity in safeguarding industrial systems. <br>The event, held at the Howest auditorium, featured a panel of experts who shared insights on the challenges and best practices for securing OT environments.'},
+              {description: 'In 2023, a cyberattack on Japan\'s largest port exposed the risks of weak Operational Technology (OT) security. <br>The ransomware LockBit 3.0 halted operations, stranding trucks and disrupting global supply chains. <br>This highlighted the need to prioritize OT security, which focuses on system availability and protecting physical processes.'},
+              {description: 'Cyberattacks are inevitable, so minimizing their impact is key. Separating IT and OT networks prevents threats from spreading, while maintaining an updated inventory ensures vulnerabilities are addressed. <br>Tools like Wireshark can identify unknown devices, which should be blocked or removed if suspicious.'},
+              {description: 'Strong OT security depends on aligning people, processes, and technology. <br>Logical zoning within networks limits risks, and legacy systems must be updated, with strict access controls in place. <br>Monitoring is also critical—dark web scans and multi-factor authentication (MFA) can prevent breaches, while alerts for unusual activity provide early warnings. <br>Proactive steps like these ensure systems remain secure and resilient against inevitable threats.'},
+              {description: 'It was an incredibly interesting evening where I gained valuable insights and learned a lot about the critical importance of OT security in today’s interconnected world.'}
+              ]"
+              sourceImageLeft="src/assets/images/hack the future.jpg"
+              imageLeftAlt="baserow" />
+
     <BlogCard title="Tech and Meet AI: The reality behind the hype" date="2024-11-21"
               :paragraphs="[
               {description: 'On November 21, 2024, I attended a fascinating presentation by ir. Wim Delvaux. The event was scheduled to start at 6:30 PM but, due to a misunderstanding, it only began at 8:00 PM. Despite the delay, the insights shared made it well worth the wait.'},
@@ -22,7 +33,7 @@ export default {
               ]"
               sourceImageRight="src/assets/images/ai de realiteit achter de hype.jpg" imageRightAlt="TuxTalk" />
 
-    <BlogCard title="Hackathon Hack the Future" date="2022-11-19"
+    <BlogCard title="Hackathon Hack the Future" date="2024-11-19"
               :paragraphs="[
               {description: 'On November 19, 2024, I had the incredible opportunity to participate in the Hackathon Hack the Future, an event designed to push the boundaries of creativity and technical skills. <br>Together with my teammate Clint, we embarked on a thrilling journey to develop a program for astronaut selection using the Solid framework.'},
               {description: 'The project aimed to streamline the astronaut selection process by creating dynamic challenges, maintaining a real-time leaderboard, and incorporating a robust search feature. Although we didn’t take home a prize, the experience was both rewarding and deeply enriching.'},
