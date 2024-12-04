@@ -13,7 +13,7 @@ export default {
 <template>
   <h1>Blog</h1>
   <section class="blog">
-    <BlogCard title="The importance of OT security" date="2024-12-03"
+    <BlogCard title="Tech and Meet - The importance of OT security" date="2024-12-03"
               :paragraphs="[
               {description: 'On December 03, 2024, I attended a thought-provoking seminar on Operational Technology (OT) security, which explored the critical role of cybersecurity in safeguarding industrial systems. <br>The event, held at the Howest auditorium, featured a panel of experts who shared insights on the challenges and best practices for securing OT environments.'},
               {description: 'In 2023, a cyberattack on Japan\'s largest port exposed the risks of weak Operational Technology (OT) security. <br>The ransomware LockBit 3.0 halted operations, stranding trucks and disrupting global supply chains. <br>This highlighted the need to prioritize OT security, which focuses on system availability and protecting physical processes.'},
@@ -24,7 +24,7 @@ export default {
               sourceImageLeft="src/assets/images/ot-security.jpg"
               imageLeftAlt="baserow" />
 
-    <BlogCard title="Tech and Meet AI: The reality behind the hype" date="2024-11-21"
+    <BlogCard title="Tech and Meet - AI: The reality behind the hype" date="2024-11-21"
               :paragraphs="[
               {description: 'On November 21, 2024, I attended a fascinating presentation by ir. Wim Delvaux. The event was scheduled to start at 6:30 PM but, due to a misunderstanding, it only began at 8:00 PM. Despite the delay, the insights shared made it well worth the wait.'},
               {description: 'The presentation explored the essence of intelligence and how AI attempts to replicate human cognitive processes like observing, learning, reasoning, problem-solving, and language use. Delvaux elaborated on two primary approaches to AI: bottom-up (connectionist), which mimics biological systems using neural networks, and top-down (symbolic), which relies on logical structures like knowledge graphs and databases.'},
@@ -44,7 +44,7 @@ export default {
               sourceImageLeft="src/assets/images/hack the future.jpg"
               imageLeftAlt="baserow" />
 
-    <BlogCard title="Tech and Meet TuxTalk" date="2024-10-29"
+    <BlogCard title="Tech and Meet - TuxTalk" date="2024-10-29"
               :paragraphs="[
               {description: 'On October 29, we attended an insightful Linux meetup, exploring the newest advancements and trends in the Linux ecosystem. Here’s a look at the main highlights from the discussions:'},
               {description: '&emsp;1. Ubuntu 24.10 – Launched on October 10, Ubuntu 24.10, also known as “Oracular Oriole,” arrived with Linux kernel 6.11, GNOME 47, and a refreshed installer using Flutter. <br>This release is supported for nine months, providing a stable bridge to the upcoming Ubuntu 25.04 next year.'},
@@ -55,7 +55,7 @@ export default {
               ]"
               sourceImageRight="src/assets/images/tuxTalk.jpg" imageRightAlt="TuxTalk" />
 
-    <BlogCard title="Tech and Meet BaseRow" date="2022-10-22"
+    <BlogCard title="Tech and Meet - BaseRow" date="2022-10-22"
               :paragraphs="[
               {description: 'October 22st, I attended a tech meet at Howest that featured a presentation on Baserow, an open-source database software. The speaker, who commenced at 19:00 and finished at 20:00, introduced Baserow as a versatile platform that simplifies database management.'},
               {description: 'He emphasized that with Baserow, you only pay for a license once, and you are ready to go.'},
