@@ -13,6 +13,17 @@ export default {
 <template>
   <h1>Blog</h1>
   <section class="blog">
+    <BlogCard title="Organized PR event - AI: The reality behind the hype at our school" date="2024-12-10"
+              :paragraphs="[
+              {description: 'On December 10, 2024, my team and I had the incredible opportunity to organize a special event at our school.<br> We were honored to welcome ir. Wim Delvaux to give a presentation on AI, following the fascinating talk he gave during the Tech and Meet session last month. This event was the result of weeks of planning, and we are deeply grateful to him for taking the time to visit us.'},
+              {description: 'The presentation began at 7:00 PM and drew a diverse audience, including students, teachers, and even a few external guests.<br>Mr. Delvaux revisited some key concepts from his previous talk, diving deeper into the essence of intelligence and the ways AI seeks to emulate human cognitive processes like reasoning, problem-solving, and learning.<br>He explained the bottom-up (connectionist) and top-down (symbolic) approaches to AI, sparking lively discussions among the attendees.'},
+              {description: 'What truly stood out was his focus on the societal implications of AI, especially in the context of education. <br>Mr. Delvaux emphasized the importance of preparing students for a future where AI will play a critical role in every field. He also touched upon ethical considerations, the need for strong regulations, and the reassurance that AI, while transformative, isn’t poised to “take over the world” just yet.'},
+              {description: 'One of the most reassuring takeaways was mr. Delvaux’s explanation of why our jobs are still safe for now.<br> He highlighted the complexity of human creativity, emotional intelligence, and judgment—skills that AI has yet to master on a meaningful level. This provided a refreshing perspective and instilled confidence in the attendees about their future roles in an AI-driven world.'},
+              {description: 'The event was a resounding success, and we are proud to have played a role in bringing such an inspiring and informative session to our school.<br> It was a memorable experience for everyone involved, and we look forward to organizing more events like this in the future.'},
+              ]"
+              sourceImageRight="src/assets/images/ai_presentation_school.jpg" imageRightAlt="AI Presentation at School" />
+
+
     <BlogCard title="Tech and Meet - The importance of OT security" date="2024-12-03"
               :paragraphs="[
               {description: 'On December 03, 2024, I attended a thought-provoking seminar on Operational Technology (OT) security, which explored the critical role of cybersecurity in safeguarding industrial systems. <br>The event, held at the Howest auditorium, featured a panel of experts who shared insights on the challenges and best practices for securing OT environments.'},
