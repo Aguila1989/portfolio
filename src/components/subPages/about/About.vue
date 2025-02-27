@@ -12,9 +12,9 @@ export default {
     <h1>About me</h1>
     <div class="me">
       <div class="photo-and-text">
-        <img src="/src/assets/images/Screenshot%202024-10-21%20235517.png" alt="">
+        <img src="/src/assets/images/Screenshot%202024-10-21%20235517.png" alt="itsa me">
         <div>
-        <p>Hi there, I'm Kevin</p>
+        <h2>Hi there, I'm Kevin</h2>
           <p>I'm a last year student Bachelor Applied Informatics with a specialization towards Software Engineering at the university of Howest Bruges.<br>
           As a dedicated developer, I’m enthusiastic about learning new technologies, collaborating with teams,
           and thriving in an agile environment. I have successfully completed a range of projects, from web applications to software systems,
@@ -22,6 +22,32 @@ export default {
         </p>
         </div>
       </div>
+          <div class="photo-and-text">
+            <div>
+          <h2>Future Goals</h2>
+          <p>As I continue my journey in Software Engineering, my ultimate goal is to achieve financial freedom while doing what I love. I aspire to explore the world, discovering new cultures and places like Antarctica, Norway and Iceland, which have always been dream destinations of mine. Professionally, I aim to grow as a front-end developer, mastering modern technologies and contributing to innovative projects that make a positive impact.</p>
+            </div>
+            <img src="/src/assets/images/explore.jpg" alt="explore">
+          </div>
+          <div class="photo-and-text">
+            <img src="/src/assets/images/hobbies.jpg" alt="hobbies">
+            <div>
+          <h2>Hobbies
+          </h2>
+          <p>When I'm not coding, I enjoy spending time with my friends and family, wall climbing, going to the gym, and watching movies. I also love to travel and explore new places, and I'm always up for an adventure. I'm passionate about music and play the piano in my free time.
+          </p>
+        </div>
+      </div>
+          <div class="photo-and-text">
+            <div>
+          <h2>Favorite Quote
+          </h2>
+          <p>
+            "Compare yourself to who you were yesterday, not to who someone else is today." – Jordan Peterson
+          </p>
+    </div>
+            <img src="/src/assets/images/jordan.jpg" alt="jordan peterson">
+    </div>
     </div>
   </article>
 </template>
@@ -41,6 +67,7 @@ img:hover {
 
 .me {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -50,16 +77,22 @@ img:hover {
 h1 {
   font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
+  margin-bottom: 2rem;
   text-align: center;
+}
+h2{
+  margin: 1rem 0;
 }
 
 .photo-and-text {
   display: flex;
   background-color: #ffffff;
   align-items: center;
+  justify-content: center;
   font-size: 1.25rem;
   border: 0.05rem solid lightgrey;
   min-height: 30rem;
+  min-width: 60vw;
   padding: 2rem 4rem;
   border-radius: 1rem;
   box-shadow: 10px 10px 22px -15px rgba(0, 0, 0, 1);

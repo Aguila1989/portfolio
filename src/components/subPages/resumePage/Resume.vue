@@ -15,7 +15,7 @@ export default {
   <article class="resume-page">
     <h1>Resume</h1>
     <section class="resume-containers">
-      <ResumeCard class="talents" title="TALENTS AND SKILLS" list="Javascript<br>HTML<br>CSS<br>VUE<br>JAVA<br>C#"/>
+      <ResumeCard class="talents" title="TALENTS AND SKILLS" list="Javascript<br>HTML<br>CSS<br>VUE<br>Java<br>C#<br>Gherkin<br>Cucumber<br>Playwright"/>
       <ResumeCard class="languages" title="LANGUAGES"
                   list="Dutch: Native language<br>Spanish: Good<br>English: Good<br>French: Moderate<br/>"/>
       <ResumeCardExpanded class="education" title="EDUCATION" :sections="[
