@@ -8,7 +8,6 @@ export default {
 </script>
 
 <template>
-  <h1>Contact</h1>
   <div class="contact-info">
     <section class="contact-container">
       <h2>Contact Information</h2>
@@ -103,8 +102,6 @@ a {
 }
 
 @media (max-width: 900px) {
-
-
 
   .contact-container {
     display: flex;

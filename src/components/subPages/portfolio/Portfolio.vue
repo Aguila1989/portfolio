@@ -11,7 +11,6 @@ export default {
 </script>
 
 <template>
-  <h1>My Work</h1>
   <section class="portfolio">
     <PortfolioCard title="Portfolio" link-description="Link to GitHub" link="https://github.com/Aguila1989/portfolio"
                    alt="portfoliio"

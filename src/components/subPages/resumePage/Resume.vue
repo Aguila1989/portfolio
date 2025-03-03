@@ -13,7 +13,8 @@ export default {
 
 <template>
   <article class="resume-page">
-    <h1>Resume</h1>
+    <h1><a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Nederlands.pdf' target='_blank'>Download Dutch Curriculum</a>
+      <br><a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Engels.pdf' target='_blank'>Download English Curriculum</a></h1>
     <section class="resume-containers">
       <ResumeCard class="talents" title="TALENTS AND SKILLS" list="Javascript<br>HTML<br>CSS<br>VUE<br>Java<br>C#<br>Gherkin<br>Cucumber<br>Playwright"/>
       <ResumeCard class="languages" title="LANGUAGES"
@@ -32,8 +33,6 @@ export default {
           { title: 'Colruyt: 10/2008-09/2010', text: 'Temporary Non-food Supervisor' }
           ]"/>
       <ResumeCard class="license" title="DRIVERS LICENSE" list="Drivers License Category B and C"/>
-      <ResumeCard class="cv" title="DOWNLOAD CV" list="<a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Nederlands.pdf' target='_blank'>Download Dutch CV</a>
-                                                      <br><a href='/src/assets/files/CV%20Demeulenaere%20Kevin%20Engels.pdf' target='_blank'>Download English CV</a>"/>
     </section>
   </article>
 </template>
@@ -41,7 +40,6 @@ export default {
 <style scoped>
 
 h1 {
-  font-family: 'Playwrite GB S', sans-serif;
   margin-top: 5rem;
   text-align: center;
 }
@@ -90,10 +88,6 @@ h1 {
 
 .license {
   background-color: #d6d8f5;
-}
-
-.cv {
-  background-color: #fce4ec;
 }
 
 

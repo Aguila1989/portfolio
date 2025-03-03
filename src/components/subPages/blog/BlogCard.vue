@@ -104,7 +104,6 @@ img {
   max-height: 20rem;
   min-height: 20rem;
   border-radius: 2rem;
-  align-self: center;
 }
 
 .paragraphs {

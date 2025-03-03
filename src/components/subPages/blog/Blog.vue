@@ -11,7 +11,6 @@ export default {
 </script>
 
 <template>
-  <h1>Blog</h1>
   <section class="blog">
     <BlogCard title="Organized PR event - AI: The reality behind the hype at our school" date="2024-12-10"
               :paragraphs="[

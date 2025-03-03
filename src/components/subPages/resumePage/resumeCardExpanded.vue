@@ -45,7 +45,8 @@ export default {
 
 h2 {
   font-family: 'Playwrite GB S', sans-serif;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  text-decoration: underline 1px;
 }
 
 h3 {

@@ -9,7 +9,6 @@ export default {
 
 <template>
   <article class="about-me">
-    <h1>About me</h1>
     <div class="me">
       <div class="photo-and-text">
         <img src="/src/assets/images/Screenshot%202024-10-21%20235517.png" alt="itsa me">
@@ -53,6 +52,9 @@ export default {
 </template>
 
 <style scoped>
+article{
+  margin-bottom: 4rem;
+}
 img {
   border-radius: 55rem;
   width: 20rem;
