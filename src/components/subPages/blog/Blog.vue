@@ -11,7 +11,30 @@ export default {
 </script>
 
 <template>
+
   <section class="blog">
+    <BlogCard title="Tech and Meet: Locked Shields – Cyberdefense on the frontline" date="2025-05-13"
+              :paragraphs="[
+          {description: 'On May 13, we were introduced to the team that participated in Locked Shields, the world’s largest live-fire cyber defense exercise, held in Latvia.<br>Locked Shields is designed to train teams in both attacking and defending complex cyber systems in real time.'},
+          {description: 'The setup features six team types: red (attackers), blue (defenders), yellow (reporting), black (special ops), white (user simulation & observers), and green (infrastructure setup).<br>Especially notable was the black team—an unofficial rapid response force created by the Raven team and first deployed in 2024.'},
+          {description: 'Each year, a new narrative unfolds—this time, Berylia was under cyberattack from Crimsonia.<br>The scenario includes real-world complexity like dual-stack networks, 5G, VMware infrastructure, and even in-game servers for morale like Quake and a meme server.'},
+          {description: 'Participants operate within NATO’s unclassified planning framework, aiming to transform unacceptable conditions into acceptable ones through coordinated defense and strategic decision-making.<br>The blue team, composed of defenders from multiple countries, plays a crucial role in keeping Berylia’s systems operational.'},
+          {description: 'Subteams include legal, forensics, ICS, monitoring, and strategic communications.<br>The legal team focuses on delivering concise, pragmatic advice, improving awareness, and strengthening collaboration across disciplines.<br>This exercise shows that modern cyber defense is just as much about people and coordination as it is about technology.'}
+          ]"
+              sourceImageRight="src/assets/images/locked-shields.jpg" imageRightAlt="Locked Shields" />
+
+
+    <BlogCard title="Tech and Meet - CyFun" date="2025-04-29"
+              :paragraphs="[
+            {description: 'On April 29, I attended a Tech & Meet session focused on CyFun—not just to comply with NIS2, but as a practical risk management standard.<br> We learned to first determine your CyFun level, then build your approach around it. Risk assessment lies at the core of this process.'},
+            {description: 'The CARE principle was introduced as a guide: Coherent, Appropriate, Reasonable, and Effective. A clear mindset is essential.<br>Participants were reminded not to get lost in the details—risk assessment should be a living tool, not something you shelf.'},
+            {description: 'A gradual CyFun implementation secures your investment: start with key measures and grow over time, rather than aiming too high too soon.<br>Creating a roadmap helps maintain structure and ensures progress without discarding earlier efforts.'},
+            {description: 'CyFun isn’t only about IT—it also involves supply chain management. A self-assessment tool can help identify supplier maturity levels.<br></br>It’s important to define cybersecurity levels in agreements with suppliers, especially those with network access or digital components.<br>The session also stressed the importance of consistent inventory and proper incident response planning.'},
+            {description: 'And finally, for CyFun to succeed, awareness training must go beyond formality and actually make an impact on behavior.'}
+            ]"
+              sourceImageLeft="src/assets/images/cyfun.jpg" imageLeftAlt="CyFun" />
+
+
     <BlogCard title="Organized PR event - AI: The reality behind the hype at our school" date="2024-12-10"
               :paragraphs="[
               {description: 'On December 10, 2024, my team and I had the incredible opportunity to organize a special event at our school.<br> We were honored to welcome ir. Wim Delvaux to give a presentation on AI, following the fascinating talk he gave during the Tech and Meet session last month. This event was the result of weeks of planning, and we are deeply grateful to him for taking the time to visit us.'},
