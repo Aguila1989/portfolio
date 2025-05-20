@@ -13,6 +13,21 @@ export default {
 <template>
 
   <section class="blog">
+    <section class="blog">
+      <BlogCard title="Tech and Meet: Boosting your IaC" date="2025-05-20"
+                :paragraphs="[
+          {description: 'On May 20, FlowFactor gave a session on Infrastructure as Code (IaC), focusing on how to boost your Terraform setup.<br>FlowFactor works technology-agnostic and aims to empower developers through DevOps and automation.'},
+          {description: 'Terraform is a declarative, cloud-agnostic IaC tool with built-in state management.<br>Best practices include minimizing output, using default variable values, and leveraging git submodules and pre-commit hooks for cleaner setups.'},
+          {description: 'Their pipeline approach follows a strict structure: code checks, plan, apply (with auto-approve but manual trigger), and finally drift detection.<br>They emphasized short-lived branches and committing changes to main regularly to avoid merge conflicts and confusion about deployment stages.'},
+          {description: 'Module usage was covered in detail: don’t write modules for every small resource.<br>Start with a clear scheme showing your architecture and dependencies—this helps avoid circular dependencies and deadlocks.'},
+          {description: 'Common pitfalls include ignoring the state file, stuffing too much in `main.tf`, and mishandling sensitive data—since Terraform’s state file is plain JSON, it’s not encrypted by default.'},
+          {description: 'They explained that the state is a flat JSON file storing your infra config, and it should never be edited manually.<br>Use Terraform’s commands like `rm`, `mv`, `pull`, `push`, and `list` to manage state safely.'},
+          {description: 'Remote backends were introduced as a safer alternative to local state—defining providers and storage locations explicitly.<br>This is essential for collaboration and infrastructure stability.'},
+          {description: 'The session wrapped up with a live Terraform demo that illustrated many of the discussed principles in action.<br>It provided a practical look into how disciplined IaC practices lead to maintainable, secure infrastructure.'}
+          ]"
+                sourceImageLeft="src/assets/images/terraform.jpg" imageLeftAlt="Terraform" />
+    </section>
+
     <BlogCard title="Tech and Meet: Locked Shields – Cyberdefense on the frontline" date="2025-05-13"
               :paragraphs="[
           {description: 'On May 13, we were introduced to the team that participated in Locked Shields, the world’s largest live-fire cyber defense exercise, held in Latvia.<br>Locked Shields is designed to train teams in both attacking and defending complex cyber systems in real time.'},
@@ -29,7 +44,7 @@ export default {
             {description: 'On April 29, I attended a Tech & Meet session focused on CyFun—not just to comply with NIS2, but as a practical risk management standard.<br> We learned to first determine your CyFun level, then build your approach around it. Risk assessment lies at the core of this process.'},
             {description: 'The CARE principle was introduced as a guide: Coherent, Appropriate, Reasonable, and Effective. A clear mindset is essential.<br>Participants were reminded not to get lost in the details—risk assessment should be a living tool, not something you shelf.'},
             {description: 'A gradual CyFun implementation secures your investment: start with key measures and grow over time, rather than aiming too high too soon.<br>Creating a roadmap helps maintain structure and ensures progress without discarding earlier efforts.'},
-            {description: 'CyFun isn’t only about IT—it also involves supply chain management. A self-assessment tool can help identify supplier maturity levels.<br></br>It’s important to define cybersecurity levels in agreements with suppliers, especially those with network access or digital components.<br>The session also stressed the importance of consistent inventory and proper incident response planning.'},
+            {description: 'CyFun isn’t only about IT—it also involves supply chain management. A self-assessment tool can help identify supplier maturity levels.<br>It’s important to define cybersecurity levels in agreements with suppliers, especially those with network access or digital components.<br>The session also stressed the importance of consistent inventory and proper incident response planning.'},
             {description: 'And finally, for CyFun to succeed, awareness training must go beyond formality and actually make an impact on behavior.'}
             ]"
               sourceImageLeft="src/assets/images/cyfun.jpg" imageLeftAlt="CyFun" />
