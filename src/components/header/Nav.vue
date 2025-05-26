@@ -11,11 +11,11 @@ export default {
 
 <template>
   <ul>
-    <li @click="handleClick('about')">About me</li>
-    <li @click="handleClick('resume')">Resume</li>
-    <li @click="handleClick('portfolio')">My Work</li>
-    <li @click="handleClick('blog')">Blog</li>
-    <li @click="handleClick('contact')">Contact</li>
+    <li class="li-left" @click="handleClick('about')">About me</li>
+    <li class="li-mid" @click="handleClick('resume')">Resume</li>
+    <li class="li-mid" @click="handleClick('portfolio')">My Work</li>
+    <li class="li-right" @click="handleClick('blog')">Blog</li>
+    <li class="li-right" @click="handleClick('contact')">Contact</li>
   </ul>
 </template>
 
@@ -40,14 +40,26 @@ li:last-child {
   border-right: none;
 }
 
+.li-mid:hover {
+  background-color: #fdfbf4;
+  box-shadow: 10px 10px 20px -14px lightgreen;
+}
 
+.li-left:hover {
+  background-color: #fef4e7;
+  box-shadow: 10px 10px 20px -14px lightgreen;
+}
+
+.li-right:hover {
+  background-color: #c7e4d6;
+  box-shadow: 10px 10px 20px -14px lightskyblue;
+}
 
 li:hover {
-  background-color: lightpink;
   cursor: pointer;
-  box-shadow: 10px 10px 20px -14px blue;
   transform: translateY(-0.2rem);
 }
+
 
 @media (max-width: 1300px) {
   ul {
@@ -62,15 +74,34 @@ li:hover {
     text-align: center;
   }
 
+  .li-mid:hover {
+    background-color: #c7e4d6;
+    box-shadow: 10px 10px 20px -14px lightskyblue;
+  }
+
+  .li-left:hover {
+    background-color: #c7e4d6;
+    box-shadow: 10px 10px 20px -14px lightskyblue;
+  }
+
+  .li-right:hover {
+    background-color: #fef4e7;
+    box-shadow: 10px 10px 20px -14px #c7e4d6;
+  }
+
   li:last-child {
     border-bottom: none;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 900px) {
   li {
     font-size: 1rem;
     padding: 0.5rem 0.75rem;
+  }
+  .li-mid:hover , .li-left:hover, .li-right:hover {
+    background-color: #fef4e7;
+    box-shadow: 10px 10px 20px -14px lightskyblue;
   }
 }
 </style>

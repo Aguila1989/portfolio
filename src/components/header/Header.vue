@@ -30,7 +30,7 @@ export default {
 <style scoped>
 
 header {
-  background-image: url('/src/assets/css/media/view-3d-modern-abstract-sphere-art.jpg');
+  background-image: url('/src/assets/css/media/paper-texture-colorful-abstract.jpg');
   background-size: cover;
   background-position: top;
   padding: 1rem 2rem;
@@ -63,7 +63,7 @@ h1:hover {
 .circle {
   width: 2rem;
   height: 2rem;
-  background-color: lightpink;
+  background-color: #c7e4d6;
   border-radius: 50%;
   margin-right: 10px;
 }
