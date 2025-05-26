@@ -74,12 +74,7 @@ li:hover {
     text-align: center;
   }
 
-  .li-mid:hover {
-    background-color: #c7e4d6;
-    box-shadow: 10px 10px 20px -14px lightskyblue;
-  }
-
-  .li-left:hover {
+  .li-mid:hover, .li-left:hover {
     background-color: #c7e4d6;
     box-shadow: 10px 10px 20px -14px lightskyblue;
   }
